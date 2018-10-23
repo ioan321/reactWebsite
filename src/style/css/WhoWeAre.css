@@ -1,0 +1,62 @@
+h3{
+    font-size: 2em;
+}
+
+.who-container{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+}
+
+.who-container>img{
+    height: 47vh;
+}
+
+/* Styling for infobox1 and content */
+.infobox1 {
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    margin-bottom: 3%
+}
+
+.infobox1>div:first-of-type{
+    margin-left: 16%;
+}
+
+.infobox1>div:nth-of-type(2){
+    margin-right: 4%;
+}
+
+.fresherpercent{
+    font-size: 50px;
+    color: #c57200;
+}
+.lateralpercent{
+    font-size: 50px;
+    color: #66883f;
+}
+h3 { 
+    margin: 10px 0px;
+}
+
+/* Styling for infobox2 and content */
+.infobox2 {
+    display: flex;
+    justify-content: space-around;
+    height: 20vh;
+    align-self: center;
+    width: 60vw;
+}
+.percentage {
+    font-size: 28px;
+}
+
+.infobox1 img {
+    width: 85%;
+}
+
+.infobox2 img {
+    height: 50%;
+}

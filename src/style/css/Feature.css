@@ -1,0 +1,22 @@
+.blurb{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+.blurb.reverse{
+    flex-direction: row-reverse;
+}
+
+.blurb>img{
+    width: 40vw;
+    max-width: 50vw;
+    max-height: 75vh;
+}
+
+.blurb>div{
+    width: 30%;
+    text-align: left;
+}

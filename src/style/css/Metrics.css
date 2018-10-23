@@ -1,0 +1,48 @@
+.container-container {
+    width: 100%; 
+    height: 100%; 
+}
+
+.slide-in {
+    animation-name: example;
+    animation-duration: 5s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-out;
+    /* animation-delay: 1s; */
+}
+
+.slide-out {
+    animation-name: example2;
+    animation-duration: 1.25s;
+    animation-fill-mode: both;
+    animation-timing-function: linear;
+}
+
+.donutgraph{
+    display: flex;
+    grid-template-columns: 50% 50%;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+}
+
+.left{
+    text-align: left;
+    font-size: 2em;
+}
+
+.left{
+    text-align : left;
+}
+
+/** animation for pulling in **/ 
+@keyframes example {
+    0%   { transform: translate(700px); }
+    100% { transform: translate(0px); }
+}
+
+/** animation for pulling out **/ 
+@keyframes example2 {
+    0%   { transform: translate(0px); }
+    100% { transform: translate(700px); }
+}

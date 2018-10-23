@@ -1,0 +1,81 @@
+#profileContainer{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: flex-start;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 2rem;
+}
+
+#profilePictureContainer{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    padding-right: 1rem;
+}
+
+#profilePicture{
+    border-style:solid;
+    border-width:1px;
+    border-width:.125rem;	
+    border-radius:.25rem;
+}
+
+#profilePictureInput{
+    border-style:solid;
+    border-width:1px;
+    display: inline-block;
+    padding: 0.25rem;
+    border-radius: .25rem;
+    margin-top: .75rem;
+    border-width:.125rem;		
+    box-shadow:4px 4px 8px 0px rgba( 0, 0, 0, 0.2 );
+}
+
+label{
+    font-weight:600;	
+    line-height:1.5;		
+    font-size:.875rem;
+}
+
+#detailsContainer{
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    -webkit-appearance:none;
+    -moz-appearance:none;	
+    border-style:solid;
+    border-width:1px;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+}
+
+.inputDiv{
+    display: flex;
+    margin: 1rem;
+    justify-content: space-between;
+}
+
+
+.button{
+    font-weight:bold;	
+    padding:0.5rem;
+    -webkit-appearance:none;
+    -moz-appearance:none;	
+    border-style:solid; 
+    border-width:1px;
+    margin:0.25rem;
+    transition: all .15s ease-in-out;	
+    font-size:.875rem;
+    display: inline-block;
+    border-radius: 15%;
+    
+}
+
+.button:hover{
+    transform: scale(1.1);
+    cursor:pointer;
+}

@@ -1,0 +1,89 @@
+.alignment {
+    display: block;
+    width:90%;
+    margin: 0 auto;
+    margin-left: 8vw;
+    color: white;
+}
+
+.row1 {
+    display: flex;
+    flex-direction: row;
+    height: 235px;
+    justify-content: center;
+    margin: 3% 20px 30px 20px
+}
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+    height: 235px;
+    justify-content: center;
+}
+
+.serviceline { /* holds the button as well as the clients */
+    display: block;
+    width: 200px;
+    height: 225px;
+    text-align: center;
+}
+
+.clients { /* styling for the client list (under button) */
+    display: block;
+}
+
+
+/* Below is all the Button specific styling... */
+
+button {
+    background-color: #4CAF50; /* Default Button Color */
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 4px;
+    width: 167px;
+    height: 50px;
+    margin: 15px;
+}
+
+/* Below defines the colors for the different Service Line Buttons */
+.button1 {
+    background-color: #007CC3;
+}
+.button2 {
+    background-color: #6D6E71;
+}
+.button3 {
+    background-color: #B74326;
+}
+.button4 {
+    background-color: #F16C51;
+}
+.button5 {
+    background-color: #DF9926;
+}
+.button6 {
+    background-color: #47BAEB;
+}
+.button7 {
+    background-color: #6CB33F;
+}
+.button8 {
+    background-color: #00B28F;
+}
+.button9 {
+    background-color: #963596;
+}
+.button10 {
+    background-color: #A7A9AC;
+}
+.button11 {
+    background-color: rgb(38, 183, 115);
+}
+.button12 {
+    background-color: #7E7E7E;
+}

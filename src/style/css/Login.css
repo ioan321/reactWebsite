@@ -1,0 +1,125 @@
+#pageContainer{
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0.25rem;
+}
+
+#plantWall{
+    height:75vh;
+    width: auto;
+    border-radius:.5rem;
+    border-style:solid;
+    border-width:1px;
+    border-color:black;
+    margin-top:1rem;
+    margin-bottom:1rem;
+    box-shadow:4px 4px 8px 0px rgba( 0, 0, 0, 0.2 );
+}
+
+#loginContainer{
+    height: 75vh;
+    border-radius: .5rem;
+    border-style:solid;
+    border-width:1px;
+    border-color: black;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width:100%;
+    width:50%;
+    width:25%;
+    max-width:32rem;
+    box-shadow:4px 4px 8px 0px rgba( 0, 0, 0, 0.2 );
+    align-items:center;
+}
+
+#loginPadding{
+    padding: 1rem;
+    border-color: black;
+    max-width:30em;
+}
+
+#loginBox{    	
+    border-style:solid;
+    border-width:1px;	
+    border-color:var(--transparent);	
+    padding-left:0.25em;
+    padding-right:0.25em;	
+    margin-left:0.25em;
+    margin-right:0.25em;
+}
+
+#loginTitle{
+    font-size:2rem;	
+    font-weight:600;
+    padding-left:0.25em;
+    padding-right:0.25em;	
+    margin-left:0.25em;
+    margin-right:0.25em;
+}
+
+#username{
+    margin-top:1em;
+    margin-bottom:1em;
+}
+
+#usernameLabel{
+    display:block;
+    font-weight:600;	
+    line-height:1.5;	
+}
+
+#usernameInput{
+    padding:var(--spacing-small);
+    -webkit-appearance:none;
+    -moz-appearance:none;	
+    border-style:solid;
+    border-width:1px;	
+    width:100%;
+}
+
+.textInput:hover{
+    color:white;
+    background-color:black;	
+    
+}
+
+#password{ 	
+    margin-top:1em;
+    margin-bottom:1em;
+}
+
+#passwordLabel{  
+    display:block;
+    font-weight:600;	
+    line-height:1.5;		
+    font-size:.875rem;
+}
+
+#passwordInput{
+    padding:var(--spacing-small);
+    -webkit-appearance:none;
+    -moz-appearance:none;	
+    border-style:solid;
+    border-width:1px;	
+    width:100%;
+}
+
+.button{
+    font-weight:bold;	
+    padding:0.5rem;
+    -webkit-appearance:none;
+    -moz-appearance:none;	
+    border-style:solid; 
+    border-width:1px;
+    margin:0.25rem;
+    transition: all .15s ease-in-out;	
+    font-size:.875rem;
+    display: inline-block;
+    border-radius: 15%;
+    
+}
+
+.button:hover{
+    transform: scale(1.1);
+    cursor:pointer;
+}

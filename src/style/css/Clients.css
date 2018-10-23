@@ -1,0 +1,26 @@
+.client-containter {
+    height: 100%; 
+    width: 100%; 
+}
+
+.client-content { 
+    height: 80%; 
+    width: calc(100% - 130px); 
+    display: flex; 
+    flex-direction: row;
+
+    margin-left: 120px;
+    margin-right: 10xp; 
+}
+
+.logobox-container {
+    width: 60%; 
+    height: 80vh; 
+}
+
+.client-description-container {
+    width: 35%; 
+    height: 80vh; 
+    overflow: scroll;
+    border: 2px solid white;
+}

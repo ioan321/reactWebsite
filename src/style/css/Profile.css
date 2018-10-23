@@ -1,0 +1,20 @@
+#profileContainer{
+    display: flex;
+    padding-top: 5vw;
+}
+
+#profilePic{
+    padding-left: 12vw;
+    margin: 0.5vw;
+}
+
+#detailsContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.detailsObjects{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.15vw
+}

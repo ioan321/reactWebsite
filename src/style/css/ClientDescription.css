@@ -1,0 +1,7 @@
+.client-description {
+    width: 100%; 
+    margin: 2px; 
+    color: white;
+    overflow: scroll;
+    /* overflow: hidden; */
+}

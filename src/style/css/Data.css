@@ -1,0 +1,38 @@
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#inputContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 1rem;
+    width: 25rem;
+    padding-left: 1rem;
+}
+
+.inputDiv{
+    display: flex;
+    margin: 1rem;
+    justify-content: space-between;
+}
+
+.input{
+    -webkit-appearance:none;
+    -moz-appearance:none;	
+    border-style:solid;
+    border-width:1px;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+}
+
+label{
+    font-weight:600;	
+    line-height:1.5;		
+    font-size:.875rem;
+}
